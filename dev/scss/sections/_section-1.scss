@@ -1,0 +1,23 @@
+/* =============
+    Section 1
+============= */
+#section-1{
+    background-color: $black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". video .";
+
+    >div{
+        grid-area:  video;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid red;
+
+        section{
+            width: 100%;
+        }
+        
+    }
+}
